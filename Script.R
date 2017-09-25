@@ -1,0 +1,5 @@
+path <- file.path("~", "Chytil Mario", "CEU", "Tárgyak", "Data Analysis_2", "Seminars", "1st", "hotels_Dec31_cleaner.csv")
+hotels <- read.csv(path, stringsAsFactors = FALSE)
+str(hotels)
+print(hotels)
+head(hotels)
